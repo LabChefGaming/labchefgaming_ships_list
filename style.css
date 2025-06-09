@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif; /* Choose a readable font */
+    margin: 0;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #f0f0f0; /* Light text color */
+    line-height: 1.6;
+}
+
+.site-header {
+    text-align: center; /* Center the image if it's smaller than the container */
+    margin-bottom: 20px; /* Space below the header */
+    background-color: #0d0d0d; /* Darker background for header */
+}
+
+.site-header img {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below image */
+    margin: 0 auto; /* Center the image */
+}
+
+.ship-list-container {
+    max-width: 960px; /* Limit width for readability on large screens */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add padding on the sides */
+}
+
+.ship-roster {
+    margin-top: 30px;
+}
+
+.country-group {
+    margin-bottom: 30px; /* Space between country groups */
+    padding: 20px;
+    background-color: #2a2a2a; /* Slightly lighter background for groups */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.country-group h2 {
+    color: #4CAF50; /* Accent color for country names */
+    margin-top: 0;
+    border-bottom: 2px solid #4CAF50; /* Underline for clarity */
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.country-group ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    display: grid; /* Use grid for multiple columns */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 10px; /* Space between list items */
+}
+
+.country-group li {
+    background-color: #3a3a3a; /* Even lighter background for list items */
+    padding: 10px;
+    border-radius: 4px;
+    word-wrap: break-word; /* Prevent long names from overflowing */
+}
+
+.site-footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #0d0d0d;
+    color: #888; /* Muted color for footer text */
+    font-size: 0.9em;
+}
+
+i {
+    padding: 1em;
+    
+}
